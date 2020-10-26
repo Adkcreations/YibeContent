@@ -1643,7 +1643,7 @@ span{
 .appl .pk{
 width: 50%;
 margin:0;
-transform:translateY(-50%);
+transform:translateY(0%);
 }
 .appl .pk h2
 {
