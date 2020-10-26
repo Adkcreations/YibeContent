@@ -239,7 +239,7 @@ header ul li a{
     height:580px;
     background:rgb(255, 255, 255);
     border-radius: 35px;
-    box-shadow: inset 0 0 15px rgba(0,0,0,0.8),  0 40px 100px rgba(0,0,0,.4);
+    box-shadow: inset 0 0 15px rgba(0,0,0,0.8),  0 40px 100px #0cb5bb1a;
 }
 .screenthird{
     content:'';
@@ -341,7 +341,7 @@ header ul li a{
     height:580px;
     background:rgb(255, 255, 255);
     border-radius: 35px;
-    box-shadow: inset 0 0 15px rgba(0,0,0,0.8),  0 40px 100px rgba(0,0,0,.4);
+    box-shadow: inset 0 0 15px rgba(0,0,0,0.8),  0 40px 100px #0cb5bb1a;
 }
 .screenthird2{
     content:'';
@@ -443,7 +443,7 @@ header ul li a{
     height:580px;
     background:rgb(255, 255, 255);
     border-radius: 35px;
-    box-shadow: inset 0 0 15px rgba(0,0,0,0.8),  0 40px 100px rgba(0,0,0,.4);
+    box-shadow: inset 0 0 15px rgba(0,0,0,0.8),  0 40px 100px #0cb5bb1a;
 }
 .screenthird3{
     content:'';
@@ -547,7 +547,7 @@ header ul li a{
     height:580px;
     background:rgb(255, 255, 255);
     border-radius: 35px;
-    box-shadow: inset 0 0 15px rgba(0,0,0,0.8),  0 40px 100px rgba(0,0,0,.4);
+    box-shadow: inset 0 0 15px rgba(0,0,0,0.8),  0 40px 100px #0cb5bb1a;
 }
 .screenthird4{
     content:'';
@@ -694,12 +694,12 @@ color:#0cb5bb;
 .content .fas{
     font-size: 70px;
     margin: 16px 0;
-    color:#3775ae;
+    color:#0cb5bb;
   }
   .content .fas.gro{
     font-size: 70px;
     margin: 16px 0;
-    color:#0d85a3;
+    color:#0cb5bb;
   }
   .content .fas.mon{
     font-size: 70px;
@@ -722,6 +722,9 @@ color:#0cb5bb;
 }
 .content:hover .fas{
     color:#fff;
+}
+.content:hover .fab{
+  color:#fff;
 }
 .content:hover .far{
     color:#fff;
@@ -838,7 +841,7 @@ color:#0cb5bb;
 }
 .section4  .content .fab{
   font-size: 70px;
-  color:#0d85a3;
+  color:#0cb5bb;
   margin: 16px 0;
 }
 .section4  .content .fas{
@@ -847,6 +850,9 @@ color:#0cb5bb;
   }
   .section4 .content > *{
   flex: 1 1 100%;
+}
+.section4 .content:hover .fab{
+  color: #fff;
 }
 .section4 .content:hover{
   color: white;
@@ -976,6 +982,15 @@ color:#0cb5bb;
 .section5 .content:hover{
   color: white;
 }
+.section5 .content:hover .fas{
+  color: white;
+}
+.section5 .content:hover .far{
+  color: white;
+}
+.section5 .content:hover .fab{
+  color: white;
+}
 .section5 .content:hover a{
   border-color: white;
   background: white;
@@ -1089,6 +1104,15 @@ color:#0cb5bb;
     color:#0cb5bb;
     margin: 16px 0;
   }
+  .section6 .content:hover .fas{
+    color: white;
+  }
+  .section6 .content:hover .far{
+    color: white;
+  }
+  .section6 .content:hover .fab{
+    color: white;
+  }
   .section6 .content > *{
   flex: 1 1 100%;
 }
@@ -1169,7 +1193,8 @@ color:#0cb5bb;
 .contactyibe h2{
     font-size:50px;
     text-transform: uppercase;
-    color:rgb(72, 93, 187);
+    color:rgb(53, 54, 54);
+    text-shadow: -1px 0 #0cb5bb, 0 1px #0cb5bb, 1px 0 #0cb5bb, 0 -1px #0cb5bb;
     text-align:center;
 }
 .contactyibe p{
@@ -1292,7 +1317,8 @@ width: 45%;
 .contactyibe h2{
     font-size:20px;
     text-transform: uppercase;
-    color:rgb(72, 93, 187);
+    color:rgb(53, 54, 54);
+    text-shadow: -1px 0 #0cb5bb, 0 1px #0cb5bb, 1px 0 #0cb5bb, 0 -1px #0cb5bb;
     text-align:center;
 }
 .contactyibe p{
