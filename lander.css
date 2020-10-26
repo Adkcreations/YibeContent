@@ -1204,7 +1204,7 @@ color:#0cb5bb;
     color:#fff;
    
 }
-@media all and (min-width:1100px){
+@media all and (min-width:1000px){
   .contactyibe p{
     position: relative;
       text-align: center;
@@ -1237,7 +1237,7 @@ width: 45%;
     width:45%;
     height:68vh;
     left:5%;
-    margin-top:15.2%;
+    margin-top:14.9%;
     flex:100%;
     margin-bottom:20px;
     border-radius:15px;
