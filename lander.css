@@ -1198,9 +1198,20 @@ color:#0cb5bb;
     text-align:center;
 }
 .contactyibe p{
+  
     text-align: center;
     font-size:20px;
     color:#fff;
+   
+}
+@media all and (min-width:1100px){
+  .contactyibe p{
+    position: relative;
+      text-align: center;
+      font-size:20px;
+      color:#fff;
+      bottom: 40%;
+  }
 }
 .contactyibe span{
     font-size:25px;
@@ -1325,6 +1336,7 @@ width: 45%;
     text-align: center;
     font-size:10px;
     color:#fff;
+
 }
 .contactyibe span{
   color:#0cb5bb;
@@ -1354,7 +1366,7 @@ width: 45%;
 /*Footer section Start*/
 
 footer{
-    background:#757474;
+    background:#757474b6;
     padding:30px 0;
 }
 .footer-container{
@@ -1635,11 +1647,13 @@ transform:translateY(-50%);
 }
 .appl .pk h2
 {
-    font-size:30px;
+    font-size:50px;
     color:#0cb5bb;
 }
 .appl .pk p{
-    width:100%;
+    width:98%;
+    font-size: 22px;
+    font-weight:300;
     color:rgb(209, 202, 202);
 }
 
