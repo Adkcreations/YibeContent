@@ -1650,6 +1650,20 @@ transform:translateY(0%);
     font-size:50px;
     color:#0cb5bb;
 }
+@media all and (max-width:800px){
+  .appl .pk h2
+{
+    font-size:50px;
+    color:#0cb5bb;
+    text-align:center;
+}
+.appl .pk p{
+    width:80%;
+    font-size: 22px;
+    font-weight:300;
+    color:rgb(209, 202, 202);
+}
+}
 .appl .pk p{
     width:98%;
     font-size: 22px;
